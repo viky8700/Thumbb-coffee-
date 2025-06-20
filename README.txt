@@ -1,0 +1,1 @@
+Upload all files to GitHub > Settings > Pages > Set Source to Main /root to go live.
