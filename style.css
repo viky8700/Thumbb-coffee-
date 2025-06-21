@@ -1,20 +1,5 @@
 
-body {
-    font-family: sans-serif;
-    text-align: center;
-    background-color: #f9f9f9;
-}
-.products {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-}
-.product {
-    border: 1px solid #ccc;
-    padding: 20px;
-    background: #fff;
-}
-img {
-    width: 200px;
-    height: auto;
-}
+body { font-family: sans-serif; text-align: center; background: #f8f8f8; }
+.products { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 40px; }
+.product { border: 1px solid #ccc; padding: 20px; width: 250px; background: #fff; }
+img { width: 200px; height: auto; }

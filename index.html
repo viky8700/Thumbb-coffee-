@@ -1,22 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Thumbb Coffee</title>
-    <link rel="stylesheet" href="style.css">
+  <title>Thumbb Coffee</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to Thumbb Coffee</h1>
-    <div class="products">
-        <div class="product">
-            <img src="images/sample1.jpg" alt="Coffee 1">
-            <h2>Bold Brew</h2>
-            <p>₹3499</p>
-            <div id="paypal-button-container-1"></div>
-        </div>
+  <h1>Welcome to Thumbb Coffee</h1>
+  <div class="products">
+    <div class="product">
+      <img src="images/boldbrew.jpg" alt="Bold Brew">
+      <h2>Bold Brew</h2>
+      <p>₹3499</p>
+      <div id="paypal-button-container-1"></div>
     </div>
-    <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD"></script>
-    <script>
-        paypal.Buttons().render('#paypal-button-container-1');
-    </script>
+    <div class="product">
+      <img src="images/vanillabean.jpg" alt="Vanilla Bean Bliss">
+      <h2>Vanilla Bean Bliss</h2>
+      <p>₹2999</p>
+      <div id="paypal-button-container-2"></div>
+    </div>
+    <div class="product">
+      <img src="images/hazelnut.jpg" alt="Hazelnut Harmony">
+      <h2>Hazelnut Harmony</h2>
+      <p>₹3199</p>
+      <div id="paypal-button-container-3"></div>
+    </div>
+  </div>
+  <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD"></script>
+  <script>
+    paypal.Buttons().render("#paypal-button-container-1");
+    paypal.Buttons().render("#paypal-button-container-2");
+    paypal.Buttons().render("#paypal-button-container-3");
+  </script>
 </body>
 </html>
